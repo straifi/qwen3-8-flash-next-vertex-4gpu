@@ -1,0 +1,1299 @@
+{
+  "model_id": "Qwen/Qwen3.8-Flash-Next",
+  "total_files": 143,
+  "bundled_config_files_count": 12,
+  "safetensors_shards_count": 131,
+  "total_size_bytes": 360023349944,
+  "total_size_gib": 335.3,
+  "bundled_config_files": [
+    {
+      "filename": "LICENSE",
+      "size_bytes": 3235,
+      "md5_hash": "dNdCVtzJJl2pvXynpJoi/g==",
+      "crc32c": "bWdj5A==",
+      "is_safetensors_shard": false,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/LICENSE",
+      "bundled_in_git_repo": true
+    },
+    {
+      "filename": "README.md",
+      "size_bytes": 65155,
+      "md5_hash": "kqR9U3ey/ZBM8CKUaVcZ9Q==",
+      "crc32c": "Dk1STg==",
+      "is_safetensors_shard": false,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/README.md",
+      "bundled_in_git_repo": true
+    },
+    {
+      "filename": "chat_template.jinja",
+      "size_bytes": 8952,
+      "md5_hash": "UZI5pJCLsfgFu85fqMiiQg==",
+      "crc32c": "GpFRNg==",
+      "is_safetensors_shard": false,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/chat_template.jinja",
+      "bundled_in_git_repo": true
+    },
+    {
+      "filename": "config.json",
+      "size_bytes": 4745,
+      "md5_hash": "Z3XuDBClg8G+okwn0IPZdg==",
+      "crc32c": "oahQSA==",
+      "is_safetensors_shard": false,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/config.json",
+      "bundled_in_git_repo": true
+    },
+    {
+      "filename": "generation_config.json",
+      "size_bytes": 202,
+      "md5_hash": "7+qgD726qjO+Uuk3PDXaXw==",
+      "crc32c": "1QQr0g==",
+      "is_safetensors_shard": false,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/generation_config.json",
+      "bundled_in_git_repo": true
+    },
+    {
+      "filename": "merges.txt",
+      "size_bytes": 3353259,
+      "md5_hash": "vEPX4Eqpy6+kn3QwG/ytkw==",
+      "crc32c": "KDjzBQ==",
+      "is_safetensors_shard": false,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/merges.txt",
+      "bundled_in_git_repo": true
+    },
+    {
+      "filename": "model.safetensors.index.json",
+      "size_bytes": 170726,
+      "md5_hash": "9bcYqzCuN7Njslt8Gjp2+w==",
+      "crc32c": "H9yloQ==",
+      "is_safetensors_shard": false,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model.safetensors.index.json",
+      "bundled_in_git_repo": true
+    },
+    {
+      "filename": "preprocessor_config.json",
+      "size_bytes": 390,
+      "md5_hash": "e8rt9yagWSRZWwMC0N1Nxw==",
+      "crc32c": "8VGvsA==",
+      "is_safetensors_shard": false,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/preprocessor_config.json",
+      "bundled_in_git_repo": true
+    },
+    {
+      "filename": "tokenizer.json",
+      "size_bytes": 12809320,
+      "md5_hash": "CF4QFl8kSZu52Pzufhf57g==",
+      "crc32c": "zjW/9Q==",
+      "is_safetensors_shard": false,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/tokenizer.json",
+      "bundled_in_git_repo": true
+    },
+    {
+      "filename": "tokenizer_config.json",
+      "size_bytes": 17928,
+      "md5_hash": "6ENkIhdjelc4vJuGAho+7w==",
+      "crc32c": "QA4snA==",
+      "is_safetensors_shard": false,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/tokenizer_config.json",
+      "bundled_in_git_repo": true
+    },
+    {
+      "filename": "video_preprocessor_config.json",
+      "size_bytes": 385,
+      "md5_hash": "QbyE16pwh5leC4/TwKKd+g==",
+      "crc32c": "cNRL4Q==",
+      "is_safetensors_shard": false,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/video_preprocessor_config.json",
+      "bundled_in_git_repo": true
+    },
+    {
+      "filename": "vocab.json",
+      "size_bytes": 6722759,
+      "md5_hash": "TpdiYNgi6xM1QX/jQwm+Pw==",
+      "crc32c": "XVIDlA==",
+      "is_safetensors_shard": false,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/vocab.json",
+      "bundled_in_git_repo": true
+    }
+  ],
+  "safetensors_shards": [
+    {
+      "filename": "model-00001-of-00131.safetensors",
+      "size_bytes": 1040155944,
+      "md5_hash": "",
+      "crc32c": "67/r7g==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00001-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00002-of-00131.safetensors",
+      "size_bytes": 3355443368,
+      "md5_hash": "",
+      "crc32c": "e5RNIg==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00002-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00003-of-00131.safetensors",
+      "size_bytes": 1832518264,
+      "md5_hash": "",
+      "crc32c": "MnMfLA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00003-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00004-of-00131.safetensors",
+      "size_bytes": 3355443368,
+      "md5_hash": "",
+      "crc32c": "CDYo0g==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00004-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00005-of-00131.safetensors",
+      "size_bytes": 3355888504,
+      "md5_hash": "",
+      "crc32c": "ke4Y3Q==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00005-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00006-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "II49GQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00006-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00007-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "GH7nlQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00007-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00008-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "//HMKg==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00008-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00009-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "fqNwKw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00009-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00010-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "Or0MLQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00010-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00011-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "wjg9bg==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00011-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00012-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "uAzXJA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00012-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00013-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "qDqDvg==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00013-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00014-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "0pjgqA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00014-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00015-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "lm+evw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00015-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00016-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "YG2LHA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00016-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00017-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "KFxWjA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00017-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00018-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "bWUvBw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00018-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00019-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "o862+w==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00019-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00020-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "+UibYw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00020-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00021-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "v3c6cw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00021-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00022-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "1Y6a4g==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00022-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00023-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "EAxyNA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00023-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00024-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "9FsBEg==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00024-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00025-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "TKL+aQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00025-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00026-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "NL35jg==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00026-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00027-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "sjd16Q==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00027-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00028-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "PfAUog==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00028-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00029-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "3IJ0vA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00029-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00030-of-00131.safetensors",
+      "size_bytes": 3200016032,
+      "md5_hash": "",
+      "crc32c": "+pa6rg==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00030-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00031-of-00131.safetensors",
+      "size_bytes": 3200016040,
+      "md5_hash": "",
+      "crc32c": "IN9G2w==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00031-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00032-of-00131.safetensors",
+      "size_bytes": 3200016040,
+      "md5_hash": "",
+      "crc32c": "fjrhDw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00032-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00033-of-00131.safetensors",
+      "size_bytes": 3200016040,
+      "md5_hash": "",
+      "crc32c": "VairqA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00033-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00034-of-00131.safetensors",
+      "size_bytes": 3200016040,
+      "md5_hash": "",
+      "crc32c": "eq7eIw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00034-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00035-of-00131.safetensors",
+      "size_bytes": 3200016040,
+      "md5_hash": "",
+      "crc32c": "4FWphA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00035-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00036-of-00131.safetensors",
+      "size_bytes": 3200016040,
+      "md5_hash": "",
+      "crc32c": "hNm1VQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00036-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00037-of-00131.safetensors",
+      "size_bytes": 1742347160,
+      "md5_hash": "",
+      "crc32c": "e8nE0w==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00037-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00038-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "t26zbA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00038-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00039-of-00131.safetensors",
+      "size_bytes": 1716599840,
+      "md5_hash": "",
+      "crc32c": "NwdeFw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00039-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00040-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "qV99bg==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00040-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00041-of-00131.safetensors",
+      "size_bytes": 1941966288,
+      "md5_hash": "",
+      "crc32c": "eUWXgQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00041-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00042-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "FQH59w==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00042-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00043-of-00131.safetensors",
+      "size_bytes": 1839072016,
+      "md5_hash": "",
+      "crc32c": "1mmGWw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00043-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00044-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "BUtMJA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00044-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00045-of-00131.safetensors",
+      "size_bytes": 1832518280,
+      "md5_hash": "",
+      "crc32c": "x36lfg==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00045-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00046-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "j5hFhQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00046-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00047-of-00131.safetensors",
+      "size_bytes": 1716681904,
+      "md5_hash": "",
+      "crc32c": "UGbEJA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00047-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00048-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "oVjODA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00048-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00049-of-00131.safetensors",
+      "size_bytes": 1935433152,
+      "md5_hash": "",
+      "crc32c": "xSqk8g==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00049-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00050-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "RV2i+w==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00050-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00051-of-00131.safetensors",
+      "size_bytes": 1832518280,
+      "md5_hash": "",
+      "crc32c": "sHYaVA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00051-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00052-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "aBrGxA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00052-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00053-of-00131.safetensors",
+      "size_bytes": 1839072024,
+      "md5_hash": "",
+      "crc32c": "ABfeOw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00053-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00054-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "F3Aubg==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00054-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00055-of-00131.safetensors",
+      "size_bytes": 1716599840,
+      "md5_hash": "",
+      "crc32c": "cvH8+w==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00055-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00056-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "QF1eIg==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00056-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00057-of-00131.safetensors",
+      "size_bytes": 1941966280,
+      "md5_hash": "",
+      "crc32c": "wPb5Qw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00057-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00058-of-00131.safetensors",
+      "size_bytes": 3355443368,
+      "md5_hash": "",
+      "crc32c": "XHfOTA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00058-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00059-of-00131.safetensors",
+      "size_bytes": 1716600048,
+      "md5_hash": "",
+      "crc32c": "/UMt4w==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00059-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00060-of-00131.safetensors",
+      "size_bytes": 3471361528,
+      "md5_hash": "",
+      "crc32c": "hqHdyg==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00060-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00061-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "9C5DBA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00061-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00062-of-00131.safetensors",
+      "size_bytes": 3510240000,
+      "md5_hash": "",
+      "crc32c": "TDosZQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00062-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00063-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "0zIDMQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00063-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00064-of-00131.safetensors",
+      "size_bytes": 1832518280,
+      "md5_hash": "",
+      "crc32c": "DFusoA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00064-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00065-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "wfu/xw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00065-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00066-of-00131.safetensors",
+      "size_bytes": 1719221392,
+      "md5_hash": "",
+      "crc32c": "w92VAA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00066-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00067-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "tuEHHg==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00067-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00068-of-00131.safetensors",
+      "size_bytes": 1935412552,
+      "md5_hash": "",
+      "crc32c": "ugcynA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00068-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00069-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "PmodcQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00069-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00070-of-00131.safetensors",
+      "size_bytes": 1832523520,
+      "md5_hash": "",
+      "crc32c": "1UTCWA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00070-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00071-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "5LFwSQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00071-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00072-of-00131.safetensors",
+      "size_bytes": 1839072128,
+      "md5_hash": "",
+      "crc32c": "HfIoLw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00072-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00073-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "Zr1DGw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00073-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00074-of-00131.safetensors",
+      "size_bytes": 1716599840,
+      "md5_hash": "",
+      "crc32c": "F91/Kw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00074-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00075-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "J6oFSg==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00075-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00076-of-00131.safetensors",
+      "size_bytes": 1938689480,
+      "md5_hash": "",
+      "crc32c": "+4ynXQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00076-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00077-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "sRwpwQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00077-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00078-of-00131.safetensors",
+      "size_bytes": 1832600344,
+      "md5_hash": "",
+      "crc32c": "FAsf1w==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00078-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00079-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "UAhG6w==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00079-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00080-of-00131.safetensors",
+      "size_bytes": 1716599840,
+      "md5_hash": "",
+      "crc32c": "o9+0RQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00080-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00081-of-00131.safetensors",
+      "size_bytes": 3355443368,
+      "md5_hash": "",
+      "crc32c": "oUVwng==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00081-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00082-of-00131.safetensors",
+      "size_bytes": 1935433136,
+      "md5_hash": "",
+      "crc32c": "9q+kBw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00082-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00083-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "+hEHKA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00083-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00084-of-00131.safetensors",
+      "size_bytes": 1716599840,
+      "md5_hash": "",
+      "crc32c": "SAtx8A==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00084-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00085-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "fLFCyQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00085-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00086-of-00131.safetensors",
+      "size_bytes": 1941966296,
+      "md5_hash": "",
+      "crc32c": "C1jJRw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00086-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00087-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "NvYv/A==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00087-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00088-of-00131.safetensors",
+      "size_bytes": 1839072024,
+      "md5_hash": "",
+      "crc32c": "M9ir/w==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00088-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00089-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "JsxFbg==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00089-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00090-of-00131.safetensors",
+      "size_bytes": 1835795216,
+      "md5_hash": "",
+      "crc32c": "yP5hUw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00090-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00091-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "JrFOeQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00091-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00092-of-00131.safetensors",
+      "size_bytes": 1716599840,
+      "md5_hash": "",
+      "crc32c": "OOVV2A==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00092-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00093-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "4opBQw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00093-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00094-of-00131.safetensors",
+      "size_bytes": 1935412928,
+      "md5_hash": "",
+      "crc32c": "JhnzhA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00094-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00095-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "pqmtMQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00095-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00096-of-00131.safetensors",
+      "size_bytes": 1832518280,
+      "md5_hash": "",
+      "crc32c": "n6DtvQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00096-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00097-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "EUjbkA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00097-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00098-of-00131.safetensors",
+      "size_bytes": 1832518280,
+      "md5_hash": "",
+      "crc32c": "bdEe5Q==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00098-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00099-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "R630vg==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00099-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00100-of-00131.safetensors",
+      "size_bytes": 1716600224,
+      "md5_hash": "",
+      "crc32c": "VzYemA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00100-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00101-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "4Dwy+A==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00101-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00102-of-00131.safetensors",
+      "size_bytes": 1935413160,
+      "md5_hash": "",
+      "crc32c": "w+tJDg==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00102-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00103-of-00131.safetensors",
+      "size_bytes": 3355443368,
+      "md5_hash": "",
+      "crc32c": "DDFiig==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00103-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00104-of-00131.safetensors",
+      "size_bytes": 1832518272,
+      "md5_hash": "",
+      "crc32c": "eUGOCg==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00104-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00105-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "FS1J1A==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00105-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00106-of-00131.safetensors",
+      "size_bytes": 1863975680,
+      "md5_hash": "",
+      "crc32c": "k4f+hg==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00106-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00107-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "cvQirA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00107-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00108-of-00131.safetensors",
+      "size_bytes": 1900676064,
+      "md5_hash": "",
+      "crc32c": "6Vm45w==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00108-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00109-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "kqjBMg==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00109-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00110-of-00131.safetensors",
+      "size_bytes": 1716599840,
+      "md5_hash": "",
+      "crc32c": "R7Cyaw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00110-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00111-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "swt1Ag==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00111-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00112-of-00131.safetensors",
+      "size_bytes": 1935413176,
+      "md5_hash": "",
+      "crc32c": "rJI3Iw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00112-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00113-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "p1N+sA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00113-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00114-of-00131.safetensors",
+      "size_bytes": 1832523512,
+      "md5_hash": "",
+      "crc32c": "W1mnyQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00114-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00115-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "r9cD9A==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00115-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00116-of-00131.safetensors",
+      "size_bytes": 1832518280,
+      "md5_hash": "",
+      "crc32c": "rqeUWw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00116-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00117-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "x4+4Ww==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00117-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00118-of-00131.safetensors",
+      "size_bytes": 1716620424,
+      "md5_hash": "",
+      "crc32c": "RWi6hw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00118-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00119-of-00131.safetensors",
+      "size_bytes": 3355443376,
+      "md5_hash": "",
+      "crc32c": "2SCk8g==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00119-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00120-of-00131.safetensors",
+      "size_bytes": 1948519840,
+      "md5_hash": "",
+      "crc32c": "5RmIiQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00120-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00121-of-00131.safetensors",
+      "size_bytes": 3355443368,
+      "md5_hash": "",
+      "crc32c": "C/8tPw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00121-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00122-of-00131.safetensors",
+      "size_bytes": 1832518264,
+      "md5_hash": "",
+      "crc32c": "Ic76vQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00122-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00123-of-00131.safetensors",
+      "size_bytes": 3355443368,
+      "md5_hash": "",
+      "crc32c": "6NYacQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00123-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00124-of-00131.safetensors",
+      "size_bytes": 1729707128,
+      "md5_hash": "",
+      "crc32c": "RWWyZw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00124-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00125-of-00131.safetensors",
+      "size_bytes": 3355443368,
+      "md5_hash": "",
+      "crc32c": "YiaPbA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00125-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00126-of-00131.safetensors",
+      "size_bytes": 1935412520,
+      "md5_hash": "",
+      "crc32c": "Btqmug==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00126-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00127-of-00131.safetensors",
+      "size_bytes": 3355443368,
+      "md5_hash": "",
+      "crc32c": "hDvNag==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00127-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00128-of-00131.safetensors",
+      "size_bytes": 1832518264,
+      "md5_hash": "",
+      "crc32c": "rQI4jg==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00128-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00129-of-00131.safetensors",
+      "size_bytes": 3355443368,
+      "md5_hash": "",
+      "crc32c": "Vh/buA==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00129-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00130-of-00131.safetensors",
+      "size_bytes": 2974788136,
+      "md5_hash": "",
+      "crc32c": "zdUBUw==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00130-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    },
+    {
+      "filename": "model-00131-of-00131.safetensors",
+      "size_bytes": 1271398528,
+      "md5_hash": "",
+      "crc32c": "jlp7qQ==",
+      "is_safetensors_shard": true,
+      "hf_download_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/main/model-00131-of-00131.safetensors",
+      "bundled_in_git_repo": false
+    }
+  ]
+}

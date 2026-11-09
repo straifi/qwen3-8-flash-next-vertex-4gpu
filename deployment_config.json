@@ -1,0 +1,65 @@
+{
+  "_comment": "One-Command End-to-End Vertex AI Deployment Configuration for Qwen/Qwen3.8-Flash-Next on a Reserved 4-GPU G4 Node (g4-standard-192) in me-central2 (me-central2-a). Replace YOUR_GCP_PROJECT_ID, YOUR_GCS_BUCKET_NAME, and YOUR_RESERVATION_NAME, then run: ./deploy.sh",
+  "model": {
+    "hf_model": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+    "hf_token": "",
+    "model_name": "qwen3-8-flash-next",
+    "served_model_name": "Qwen/Qwen3.8-Flash-Next",
+    "local_weights_dir": "model_weights",
+    "source_gcs_uri": ""
+  },
+  "gcp": {
+    "project_id": "YOUR_GCP_PROJECT_ID",
+    "regions": [
+      "me-central2"
+    ],
+    "bucket_name": "YOUR_GCS_BUCKET_NAME",
+    "gcs_prefix": "vertex_model_ready",
+    "transfer_mode": "auto",
+    "transfer_workers": 4,
+    "ar_repo": "vllm-repo",
+    "image_uri": "me-central2-docker.pkg.dev/YOUR_GCP_PROJECT_ID/vllm-repo/vllm-qwen38:v5"
+  },
+  "compute": {
+    "_machine_type_comment": "g4-standard-192 provides 4x NVIDIA RTX PRO 6000 (384 GB total GDDR7 VRAM), 192 vCPUs, and 720 GB System RAM",
+    "machine_type": "g4-standard-192",
+    "accelerator_type": "NVIDIA_RTX_PRO_6000",
+    "gpu_count": 4,
+    "_capacity_type_options": "reserved (uses Compute Engine reservation in me-central2-a), standard (On-Demand), or spot",
+    "capacity_type": "reserved",
+    "reservation": {
+      "_affinity_type_options": "SPECIFIC_RESERVATION (targets reservation.name in reservation.zone), ANY_RESERVATION (consumes any matching automatic reservation), or NO_RESERVATION",
+      "affinity_type": "SPECIFIC_RESERVATION",
+      "name": "YOUR_RESERVATION_NAME",
+      "zone": "me-central2-a",
+      "project_id": "YOUR_GCP_PROJECT_ID"
+    },
+    "min_replicas": 1,
+    "max_replicas": 1,
+    "shared_memory_size_mb": 65536,
+    "deployment_timeout_seconds": 3600
+  },
+  "vllm": {
+    "tensor_parallel_size": 4,
+    "enable_expert_parallel": true,
+    "_engram_cpu_offload_comment": "Required on 4-GPU g4-standard-192: offloads 189.12 GiB Engram N-gram table to 720 GB host RAM so GPU weights use only 60.75 GiB/GPU and leave >20 GiB/GPU (1.27M tokens) for KV cache",
+    "engram_cpu_offload": "true",
+    "max_model_len": 32768,
+    "gpu_memory_utilization": 0.90,
+    "kv_cache_dtype": "fp8",
+    "reasoning_parser": "qwen3",
+    "tool_call_parser": "qwen3_coder",
+    "enable_auto_tool_choice": true,
+    "trust_remote_code": true
+  },
+  "pipeline_stages": {
+    "run_hf_transfer": true,
+    "run_container_build": true,
+    "run_vertex_deploy": true,
+    "existing_endpoint_id": "",
+    "run_verification_tests": true,
+    "verification_prompt": "fais moi un poeme de 12 vers en arabe et la traduction en anglais",
+    "run_stress_benchmark": true,
+    "benchmark_concurrency_levels": [1, 8, 16, 32]
+  }
+}

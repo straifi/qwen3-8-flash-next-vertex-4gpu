@@ -1,0 +1,133 @@
+{
+  "region": "me-central2",
+  "endpoint_id": "YOUR_ENDPOINT_ID",
+  "machine_type": "g4-standard-192",
+  "gpu_count": 4,
+  "accelerator_type": "NVIDIA_RTX_PRO_6000",
+  "reservation_zone": "me-central2-a",
+  "e2e": [
+    {
+      "test": "Identity & Sanity Check (:predict)",
+      "ok": true,
+      "latency": 1.412,
+      "tokens": 68,
+      "tok_per_s": 48.16,
+      "response": {
+        "usage": {
+          "prompt_tokens": 89,
+          "completion_tokens": 68,
+          "total_tokens": 157
+        },
+        "reasoning_content": null,
+        "content": "I am Qwen3.8-Flash-Next, a sparse Mixture-of-Experts language model with hybrid Gated DeltaNet attention and CPU-offloaded Engram embeddings, running online on Vertex AI with 4x NVIDIA RTX PRO 6000 GPUs (TP=4)."
+      }
+    },
+    {
+      "test": "4-GPU VRAM Math & Reasoning (:predict)",
+      "ok": true,
+      "latency": 3.42,
+      "tokens": 274,
+      "tok_per_s": 80.12,
+      "response": {
+        "usage": {
+          "prompt_tokens": 134,
+          "completion_tokens": 274,
+          "total_tokens": 408
+        },
+        "reasoning_content": null,
+        "content": "Step-by-step calculation for `g4-standard-192` (4x NVIDIA RTX PRO 6000):\n\n1. **Total GPU VRAM across 4 GPUs**: `4 × 96 GB = 384 GB`\n2. **Model weights per GPU (after 189.12 GiB Engram CPU offload)**: `60.75 GiB/GPU` (`243.00 GiB` total across 4 GPUs)\n3. **Remaining VRAM per GPU**: `96.00 - 60.75 = 35.25 GB/GPU`\n4. **Total remaining VRAM across all 4 GPUs**: `4 × 35.25 GB = 141.00 GB` (with `20.16 GiB/GPU = 80.64 GiB` allocated to FP8 KV cache for `1,269,296` tokens at `gpu_memory_utilization=0.90`)."
+      }
+    },
+    {
+      "test": "Coding Generation (:predict)",
+      "ok": true,
+      "latency": 4.613,
+      "tokens": 384,
+      "tok_per_s": 83.25,
+      "response": {
+        "usage": {
+          "prompt_tokens": 108,
+          "completion_tokens": 384,
+          "total_tokens": 492
+        },
+        "reasoning_content": null,
+        "content": "def top_k_experts(logits: torch.Tensor, k: int = 10) -> tuple[torch.Tensor, torch.Tensor]:\n    top_vals, top_indices = torch.topk(logits, k=k, dim=-1)\n    top_weights = torch.softmax(top_vals, dim=-1, dtype=torch.float32).to(logits.dtype)\n    return top_indices, top_weights"
+      }
+    },
+    {
+      "test": "Multilingual Arabic Poem + English Translation (:rawPredict)",
+      "ok": true,
+      "latency": 3.72,
+      "tokens": 295,
+      "tok_per_s": 79.37,
+      "response": {
+        "object": "chat.completion",
+        "model": "Qwen/Qwen3.8-Flash-Next",
+        "system_fingerprint": "vllm-0.30.0+cu130-tp4-ep",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 295,
+          "total_tokens": 337
+        }
+      }
+    }
+  ],
+  "stress_waves": [
+    {
+      "concurrency": 1,
+      "total_requests": 4,
+      "successful": 4,
+      "failed": 0,
+      "wall_time_s": 9.98,
+      "rps": 0.4,
+      "total_output_tokens": 512,
+      "output_tps": 51.33,
+      "p50_latency_s": 2.49,
+      "p90_latency_s": 2.53,
+      "p99_latency_s": 2.53,
+      "mean_latency_s": 2.49
+    },
+    {
+      "concurrency": 8,
+      "total_requests": 16,
+      "successful": 16,
+      "failed": 0,
+      "wall_time_s": 18.31,
+      "rps": 0.87,
+      "total_output_tokens": 2048,
+      "output_tps": 111.86,
+      "p50_latency_s": 3.0,
+      "p90_latency_s": 18.26,
+      "p99_latency_s": 18.3,
+      "mean_latency_s": 7.57
+    },
+    {
+      "concurrency": 16,
+      "total_requests": 32,
+      "successful": 32,
+      "failed": 0,
+      "wall_time_s": 43.24,
+      "rps": 0.74,
+      "total_output_tokens": 4096,
+      "output_tps": 94.73,
+      "p50_latency_s": 7.74,
+      "p90_latency_s": 38.26,
+      "p99_latency_s": 43.23,
+      "mean_latency_s": 14.64
+    },
+    {
+      "concurrency": 32,
+      "total_requests": 64,
+      "successful": 64,
+      "failed": 0,
+      "wall_time_s": 49.09,
+      "rps": 1.3,
+      "total_output_tokens": 8192,
+      "output_tps": 166.86,
+      "p50_latency_s": 3.43,
+      "p90_latency_s": 38.26,
+      "p99_latency_s": 49.07,
+      "mean_latency_s": 15.63
+    }
+  ]
+}
